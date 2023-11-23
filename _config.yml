@@ -4,7 +4,7 @@ title: "The title"
 description: "Your unofficial guide for IRO testing events and training"
 logo: 'assets/images/favicon-32x32.png'
 disqus: 'iro-dog'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 

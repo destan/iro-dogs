@@ -13,6 +13,9 @@ comments: true
    </div>
    <div class="col-md-4">
       <div class="sticky-top sticky-top-80">
+         <h5>This site is NOT affiliated with IRO</h5>
+         <p>This is not official IRO content.</p>
+         <hr>
          <h5>Buy me a coffee</h5>
          <p>Thank you for your support! Your donation helps me to maintain and improve this website.</p>
          <a href="/donate/" class="btn btn-warning">Buy me a coffee</a> 

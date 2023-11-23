@@ -129,6 +129,12 @@
         </form>
 	</div>
 </div>
+{% else %}
+<style>
+    footer.footer {
+        margin-bottom: 0;
+    }
+</style>
 {% endif %}
     
 </div>
@@ -139,21 +145,18 @@
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
             <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+                <span style="font-size: 8rem;filter: grayscale(1);">🐾</span>
             </div>
 		</div>
-		<div class="col-md-8 p-5 align-self-center text-center">
-            {% assign categories_list = site.categories %}
-            {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
-                {% endfor %}
-            {% else %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
-                {% endfor %}
-            {% endif %}
-            {% assign categories_list = nil %}
+		<div class="col-md-8 p-5 h-100" style="color: white;background: #0000004d; ">
+            <div class="d-md-flex flex-column align-items-start justify-content-center h-100">
+                <p style="color: #dfdfdf; font-size: 3rem;"><strong>Did you know?</strong></p>
+                <p>Before the first exercise and after the last exercise you need to talk to the judge with your dog leashed.
+                    <br>
+                    The leash should be approximately 1m.
+                    <!-- 2.2 Requirements for the Dog Handler, Reporting In/Out -->
+                </p>
+            </div>
 		</div>
 	</div>
 </div>
@@ -196,5 +199,7 @@
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
 
+<!-- Making markdown tables look good -->
+<script>document.querySelectorAll("table:not(.table)").forEach(e => e.classList.add('table'))</script>
 </body>
 </html>

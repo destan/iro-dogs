@@ -3,7 +3,7 @@ layout: post
 title:  "What vaccines do my dog need for participation in IRO Events?"
 categories: [ Tests, Rules ]
 tags: [ tests ]
-image: assets/images/IRO_logo.png
+image: https://i.imgur.com/BjWvPF1.png
 description: "Compulsory vaccinations for dogs, precondition for participation in IRO Events"
 ---
 

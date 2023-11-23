@@ -1,0 +1,4 @@
+<!-- https://getbootstrap.com/docs/4.0/components/alerts/ -->
+<div class="alert alert-{{ include.type | default: 'warning' }}" role="alert">
+    {{ include.content | markdownify | strip }}
+</div>
