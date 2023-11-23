@@ -669,8 +669,10 @@ ul.tags li a:hover {
 }
 
 #comments {
-    margin-top: 3rem;
+    background: #fafafa;
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
+    padding-top: 1rem;
 }
 
 .h1,

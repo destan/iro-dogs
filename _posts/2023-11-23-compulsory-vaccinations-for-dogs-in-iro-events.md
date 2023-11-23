@@ -12,11 +12,11 @@ description: "Compulsory vaccinations for dogs, precondition for participation i
 
 Your dog must be vaccinated against:
 
-* distemper
-* hepatitis
-* parvovirosis
-* leptospirosis
-* rabies
+* Rabies
+* Distemper
+* Parvovirosis
+* Hepatitis
+* Leptospirosis
 
 > For dogs participating in IRO Events such as International Testing Events, World
 Championships and International Training, vaccinations against distemper, hepatitis,
