@@ -1,4 +1,4 @@
 <!-- https://getbootstrap.com/docs/4.0/components/alerts/ -->
-<div class="alert alert-{{ include.type | default: 'warning' }}" role="alert">
+<div class="shadow-sm alert alert-{{ include.type | default: 'warning' }}" role="alert" style="border-left-width: thick;">
     {{ include.content | markdownify | strip }}
 </div>
