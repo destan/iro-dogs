@@ -305,8 +305,13 @@ span.post-read-more a:hover {
     margin-right: 5px;
 }
 
-.mainheading h1.sitetitle {
+h1.sitetitle {
+    color: white;
     font-family: Righteous;
+}
+
+.lead {
+    color: white;
 }
 
 .mainheading h1.posttitle {
@@ -774,12 +779,7 @@ iframe {
 @media (min-width:768px) {
     .jumbotron.fortags {
         margin-bottom: -50px;
-        margin-top: 3rem;
-        padding: 0;
         height: 350px;
-        border-radius: 0;
-        background-image: url(../images/jumbotron.jpg);
-        background-size: cover;
     }
 
     .jumbotron.fortags .col-md-4 {
