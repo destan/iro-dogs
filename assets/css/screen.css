@@ -8,7 +8,7 @@ License: https://www.wowthemes.net/freebies-license/
     .container {max-width:80%;}
 }
 .mainheading {
-    padding: 1rem 0rem;
+    padding: 1rem 0;
 }
 
 a {
@@ -32,7 +32,7 @@ pre {
     white-space: pre;
     overflow: auto;
     background: #fff;
-    border-radius: 0px;
+    border-radius: 0;
     line-height: 1.6;
     color: #333;
     margin-bottom: -rem;
@@ -902,4 +902,11 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+/* Customizations */
+nav.navbar.mediumnavigation,
+footer.footer{
+    background-color: #092552;
+    color: white !important;
 }
