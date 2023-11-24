@@ -1,0 +1,35 @@
+<style>
+    .goog-te-gadget {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .goog-te-gadget a {
+        color: white !important;
+        font-size: 1.1rem !important;
+    }
+    .goog-te-gadget a>img {
+        width: 84px;
+        height: 32px;
+    }
+    .goog-te-gadget select {
+        padding: 10px;
+    }
+</style>
+
+<div id="googleTranslate" class="d-flex">
+<!--    <a href="#" onclick="document.querySelector('select.goog-te-combo').value = 'tr';document.querySelector('select.goog-te-combo').dispatchEvent(new Event('change'))">Türkçe</a>-->
+</div>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'googleTranslate');
+        const handle = setInterval(() => {
+            try {
+                document.querySelector('select.goog-te-combo>option[value=af]').insertAdjacentHTML('beforebegin', '<option value="tr">Turkish</option>');
+                clearInterval(handle);
+            } catch (e) {}
+        }, 1000)
+    }
+</script>
+<script type="text/javascript" async src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
