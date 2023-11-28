@@ -49,9 +49,13 @@ pre {
 }
 
 .site-content {
+    background-color: #fbfbfb;
+    background-image: url('/assets/images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 57px;
     min-height: 60vh;
     padding-top: 1.5rem;
-    margin-top: 57px;
     transition: all 0.4s;
 }
 
@@ -909,4 +913,26 @@ nav.navbar.mediumnavigation,
 footer.footer{
     background-color: #092552;
     color: white !important;
+}
+
+#mobileHeader {
+    display: none;
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    .site-content {
+        background: none;
+    }
+
+    #mobileHeader {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(/assets/images/header.jpg);
+        display: block;
+        height: 500px;
+        position: fixed;
+        width: 100%;
+        z-index: -1;
+    }
 }
