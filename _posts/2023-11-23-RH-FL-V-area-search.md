@@ -3,7 +3,7 @@ layout: post
 title:  "RH-FL V Area Search Test"
 categories: [ Tests, RH-FL ]
 tags: [ tests, RH-FL ]
-image: assets/images/IRO_logo.png
+image: https://i.imgur.com/hsQ066w.jpg
 description: "This test consists of 2 parts: Nose work and obedience. In this post we will explore the test expectations in detail."
 featured: true
 hidden: true
@@ -13,7 +13,31 @@ toc: true
 
 ## Nose work
 
-<img src="https://i.imgur.com/RsFFVWT.png">
+Total 100 points.
+
+Work mode in search: 30 points<br>
+Alert at the person: 70 points
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="https://i.imgur.com/RsFFVWT.png">
+    </div>
+    <div class="col-md-8">
+      <ul>
+        <li>5000㎡ open and covered terrain.</li>
+        <li>10 minutes</li>
+        <li>1 victim, in the open (maybe in the bushes etc. but not covered)</li>
+        <li>The judge especially evaluates the teamwork between the handler and the dog.</li>
+        <li>Actual are is not always a perfect rectangle.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% include alert.html type="danger"
+content='The first false alert devalues the exercise by 20 points.'
+%}
 
 ## Obedience & Dexterity
 

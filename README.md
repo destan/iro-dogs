@@ -1,5 +1,7 @@
 # Mediumish - Jekyll Theme
 
+`bundle exec jekyll serve`
+
 ## Icons
 
 https://fontawesome.com/v5/search?q=link&o=r&m=free
